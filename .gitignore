@@ -1,0 +1,19 @@
+﻿# Java and Maven build files
+target/
+*.class
+*.log
+*.war
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private database backups and archives
+database/staging/
+database/legacy_tables_archive.sql
+database/*backup*.sql
+database/*dump*.sql
+
